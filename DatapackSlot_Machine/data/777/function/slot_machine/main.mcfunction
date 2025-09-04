@@ -1,0 +1,1 @@
+execute unless block ~ ~-1 ~ minecraft:deepslate_brick_wall run function 777:slot_machine/break

@@ -1,0 +1,62 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "iti",
+    "gbg",
+    "iri"
+  ],
+  "key": {
+    "i": [
+      "minecraft:iron_block"
+    ],
+    "t": [
+      "minecraft:turtle_helmet"
+    ],
+    "b": [
+      "minecraft:bell"
+    ],
+    "g": [
+      "minecraft:gold_block"
+    ],
+    "r": [
+      "minecraft:redstone"
+    ]
+  },
+  "result": {
+    "id": "minecraft:armor_stand",
+    "components": {
+      "minecraft:item_model": "777:slot_machine",
+      "minecraft:max_stack_size": 1,
+      "minecraft:entity_data": {
+        "id": "minecraft:armor_stand",
+        "NoGravity": true,
+        "Invulnerable": true,
+        "Tags": [
+          "slot_machine"
+        ],
+        "Invisible": true,
+        "NoBasePlate": true,
+        "Small": true,
+        "DisabledSlots": 4144959
+      },
+      "minecraft:item_name": {
+        "text": "Slot Machine",
+        "color": "gold"
+      },
+      "minecraft:lore": [
+        {
+          "text": "Can be placed",
+          "color": "green",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "text": "Time to get rich!",
+          "color": "gray",
+          "bold": false,
+          "italic": false
+        }
+      ]
+    }
+  }
+}
